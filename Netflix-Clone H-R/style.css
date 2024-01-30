@@ -1,0 +1,60 @@
+.renklendirme {
+  background-color: aqua;
+}
+.kenarlık {
+  margin: 1%;
+}
+.arkaplanresim {
+  position: relative;
+  background-image: url("img/arkaplanfilmler.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  box-shadow: inset 100px 100px 100px 200px rgba(0, 0, 0, 0.8);
+}
+
+.ortalı {
+  margin-top: 10%;
+}
+#ilkyazı {
+  color: aliceblue;
+  font-size: xx-large;
+  filter: brightness(0.7) drop-shadow(0 0 -5px rgb(255, 255, 255));
+}
+.büyükyazı {
+  font-weight: bolder;
+  font-size: 150%;
+  line-height: 1.5;
+}
+.boyutlandırma {
+  width: 10px;
+}
+.seffaflık {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  border: 0.1rem solid gray !important;
+}
+.ikinci {
+  margin-top: 46.5%;
+  background-color: black;
+}
+#dil {
+  width: 50%;
+  color: white;
+  background-color: black;
+  margin-left: 55%;
+}
+.basla {
+  margin-right: 40%;
+}
